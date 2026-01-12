@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>B2B 위탁판매 플랫폼</title>
+    <style>
+        /* 기본 스타일 초기화 */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body, html { height: 100%; font-family: 'Pretendard', sans-serif; }
+
+        /* 메인 배경 섹션 */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), 
+                        url('https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?auto=format&fit=crop&w=1600&q=80'); /* 임시 사과농장 이미지 */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        /* 상단 네비게이션 */
+        nav {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+        .btn-order {
+            background-color: #4CAF50; /* 이미지의 초록색 버튼 */
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        /* 중앙 문구 */
+        .main-copy {
+            background-color: #79B933; /* 강조 초록색 박스 */
+            padding: 10px 20px;
+            font-size: 42px;
+            font-weight: 800;
+            margin-bottom: 20px;
+        }
+
+        .sub-copy {
+            font-size: 28px;
+            font-weight: 600;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo"><h2>LOGO</h2></div>
+        <div class="menu">
+            <a href="#">공급문의</a>
+            <a href="#">셀러등록</a>
+            <a href="#">회사소개</a>
+            <a href="#">사업영역</a>
+            <a href="여기에_발주플랫폼_링크_넣기" class="btn-order">발주플랫폼 바로가기</a>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div class="main-copy">단품으로 월 매출 3억 가능</div>
+        <div class="main-copy">사과 직접 작업합니다</div>
+        <div class="sub-copy">위탁판매 B2B 플랫폼</div>
+    </div>
+
+</body>
+</html>
